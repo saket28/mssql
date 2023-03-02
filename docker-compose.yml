@@ -2,7 +2,7 @@ version: '2.1'
 services:
 
   mssqldata:
-    image: microsoft/mssql-server-linux:latest
+    image: mcr.microsoft.com/mssql/server
     entrypoint: /bin/bash
 
   mssql:
